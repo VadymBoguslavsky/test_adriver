@@ -99,8 +99,10 @@
   padding: 20px 30px;
  }
  .header .menu {
+  margin-top: 20px;
   clear: none;
-  float: right;
+  display: flex;
+  justify-content: center;
   max-height: none;
  }
  .header .menu-icon {
