@@ -14,6 +14,9 @@
   .about__img {
     max-width: 900px;
   }
+  .about{
+    text-align: center;
+  }
 }
 
 @media (min-width: 320px) and (max-width:780px) {
