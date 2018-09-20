@@ -9,12 +9,16 @@
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
+  border: 1px solid #f4f4f4;
   text-decoration: none;
+  color: rgb(0, 112, 129);
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
 }
 
 .header li a:hover, .header .menu-btn:hover {
   background-color: #f4f4f4;
+  color: cornflowerblue;
 }
 
 .header .menu {

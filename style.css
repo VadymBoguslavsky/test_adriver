@@ -168,82 +168,12 @@
   flex-direction: row-reverse
 }
 
-.menu__icon {
-  display: none;
-  width: 45px;
-  height: 35px;
-  position: relative;
-  cursor: pointer;
-}
-
-.menu__icon span {
-  display: block;
-  position: absolute;
-  height: 9px;
-  width: 100%;
-  background: #a70c5d;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  transform: rotate(0deg);
-  transition: .25s ease-in-out;
-}
-
-.menu__icon span:nth-child(1) {
-  top: 0px;
-}
-
-.menu__icon span:nth-child(2), .menu__icon span:nth-child(3) {
-  top: 13px;
-}
-
-.menu__icon span:nth-child(4) {
-  top: 26px;
-}
-
-.menu.menu_state_open .menu__icon span:nth-child(1) {
-  top: 18px;
-  width: 0%;
-  left: 50%;
-}
-
-.menu.menu_state_open .menu__icon span:nth-child(2) {
-  transform: rotate(45deg);
-}
-
-.menu.menu_state_open .menu__icon span:nth-child(3) {
-  transform: rotate(-45deg);
-}
-
-.menu.menu_state_open .menu__icon span:nth-child(4) {
-  top: 18px;
-  width: 0%;
-  left: 50%;
-}
-
-.menu.menu_state_open .menu__links {
-  display: block;
-}
-
-.nav-dec {
-  display: inline-block;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #454545;
-  padding-right: 30px !important;
-  font-family: "GothamLight" !important;
-  font-weight: 600 !important;
-}
-
-.nav-dec:hover {
-  color: #c51b74 !important;
-  transition: color 0.5s;
-}
-
 .about {
   padding: 100px;
   border-top: 2px solid rgba(0, 112, 129, 0.9);
   font-family: Ubuntu, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .text {
@@ -261,7 +191,9 @@
 .menu__about ul {
   background-color: #f2f8f9;
   list-style: none;
+  min-width: 300px;
   padding: 30px 10px;
+  margin-right: 10px;
 }
 
 .menu__about ul li {
@@ -312,8 +244,7 @@
   text-align: center;
 }
 
-.table td, 
-.table th {
+.table td, .table th {
   padding: 10px;
   border: 1px solid lightgray;
 }

@@ -14,8 +14,12 @@
   .about__img {
     max-width: 900px;
   }
-  .about{
+  .about {
     text-align: center;
+  }
+  .menu__about ul {
+    margin: 10px 0px;
+    padding:10px; 
   }
 }
 
