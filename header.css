@@ -9,7 +9,6 @@
 .header li a {
   display: block;
   padding: 20px 20px;
-  border: 1px solid #f4f4f4;
   text-decoration: none;
   color: rgb(0, 112, 129);
   font-family: Ubuntu, sans-serif;
@@ -104,6 +103,7 @@
   }
   .header li a {
     padding: 20px 30px;
+    border: none;
   }
   .header .menu {
     margin-top: 20px;
