@@ -254,3 +254,21 @@
   font-size: 16px;
   font-weight: bold;
 }
+
+.phone__number {
+  max-width: 520px;
+  margin: 0 auto 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.phone__number a {
+  color: white;
+  font-weight: bold;
+  padding: 0 10px;
+  text-decoration: none;
+}
+.phone__number a:nth-child(2) {
+  border-right: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+}
