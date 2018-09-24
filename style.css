@@ -4,26 +4,30 @@
 
 .header {
   position: relative;
-  padding-top: 30px;
   justify-content: space-around;
 }
 
 .top {
   position: absolute;
-  background-color: rgba(0, 112, 129, 0.9);
+  background-color: white;
   z-index: 10;
   opacity: 0.9;
   width: 100%
 }
 
-.header__text p, .menu__list li a {
-  opacity: 1;
+.logo {
+  text-align: center;
+  height: 150px;
+  position: relative;
 }
 
-.header__text {
-  font-size: 25px;
-  color: white;
-  text-align: center;
+.logo a {
+  position: absolute;
+  transform: translate(-50%, -16%)
+}
+
+.header__text p, .menu__list li a {
+  opacity: 1;
 }
 
 .menu__list {
@@ -257,18 +261,131 @@
 
 .phone__number {
   max-width: 520px;
-  margin: 0 auto 20px auto;
+  margin: 50px auto;
   display: flex;
   justify-content: center;
 }
 
-.phone__number a {
-  color: white;
+.text__wrapper .phone__number a {
   font-weight: bold;
   padding: 0 10px;
+  color: #676b6d;
   text-decoration: none;
 }
-.phone__number a:nth-child(2) {
+
+.text__wrapper .phone__number a:nth-child(2) {
   border-right: 2px solid lightgray;
   border-left: 2px solid lightgray;
+}
+
+.mtc, .kievstar, .email__link {
+  position: relative;
+}
+
+.kievstar::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  left: -25px;
+  height: 16px;
+  background-image: url("kyivstar-s.jpg")
+}
+
+.mtc::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  left: -25px;
+  height: 16px;
+  background-image: url("mts-s.jpg")
+}
+
+.footer {
+  background-color: #f2f8f9;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer .phone__number {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+}
+
+.footer .phone__number a {
+  margin: 10px auto;
+  color: #676b6d;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.net__contact {
+  color: #676b6d;
+  font-size: 16px;
+}
+
+.net__contact p {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.net__contact>p::before {
+  position: absolute;
+  content: "";
+  background-size: contain;
+  background-image: url("skype.png");
+  height: 20px;
+  width: 20px;
+  left: -28px;
+}
+
+.net__contact a {
+  color: #676b6d;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.email__link::before {
+  content: "";
+  background-image: url("email-icon.png");
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  left: -28px;
+}
+
+.call_us {
+  position: absolute;
+  right: 0;
+  padding: 30px 30px 30px 60px;
+  border-top-left-radius: 40px 35px;
+  border-bottom-left-radius: 40px 35px;
+  top: 50px;
+  background-color: yellow;
+}
+
+.call_us p {
+  color: #676b6d;
+  font-size: 19px;
+  font-weight: bold;
+  position: relative;
+}
+
+.call_us p::before {
+  content: "";
+  background-image: url("phonecall.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 35px;
+  height: 35px;
+  left: -44px;
+  position: absolute;
+  top: -6px;
 }

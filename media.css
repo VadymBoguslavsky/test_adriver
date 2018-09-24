@@ -27,7 +27,7 @@
 @media (min-width: 320px) and (max-width:780px) {
   .header {
     position: relative;
-    padding: 30px 0 30px 0;
+    padding-bottom:30px;
     display: block;
   }
   .arrow_right, .arrow_left {

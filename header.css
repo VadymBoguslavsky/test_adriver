@@ -16,7 +16,6 @@
 }
 
 .header li a:hover, .header .menu-btn:hover {
-  background-color: #f4f4f4;
   color: cornflowerblue;
 }
 
@@ -102,11 +101,11 @@
     float: left;
   }
   .header li a {
-    padding: 20px 30px;
+    padding: 0 30px 20px 30px;
     border: none;
+    height: 100%;
   }
   .header .menu {
-    margin-top: 20px;
     clear: none;
     display: flex;
     justify-content: center;
