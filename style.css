@@ -1,5 +1,5 @@
 .body-wrapper {
-  font-family: 'Encode Sans Condensed', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .header {
@@ -12,18 +12,32 @@
   background-color: white;
   z-index: 10;
   opacity: 0.9;
-  width: 100%
+  width: 100%;
+  height: 25px;
+  padding-top: 25px;
 }
 
 .logo {
-  text-align: center;
-  height: 150px;
-  position: relative;
+  height: 61px;
+  width: 200px;
+  background-position-x: 121px;
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 10%;
+  top: -27px;
 }
 
 .logo a {
-  position: absolute;
-  transform: translate(-50%, -16%)
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #00858c;
+  width: 100%;
+  height: 100%;
 }
 
 .header__text p, .menu__list li a {
@@ -363,12 +377,8 @@
 
 .call_us {
   position: absolute;
-  right: 0;
-  padding: 30px 30px 30px 60px;
-  border-top-left-radius: 40px 35px;
-  border-bottom-left-radius: 40px 35px;
-  top: 50px;
-  background-color: yellow;
+  right: 12%;
+  top: -13px;
 }
 
 .call_us button {
@@ -382,28 +392,31 @@
 
 .call_us button::before {
   content: "";
-  background-image: url("phonecall.gif");
+  background-image: url(phonecall.gif);
   background-repeat: no-repeat;
   background-size: contain;
   width: 35px;
   height: 35px;
-  left: -44px;
+  left: -40px;
   position: absolute;
-  top: -6px;
+  top: -5px;
 }
 
 #myDIV {
   display: none;
 }
-  #myDIV .phone__number {
+
+#myDIV .phone__number {
   position: absolute;
-  width: 100%;
+  width: 153px;
   text-align: center;
   top: 12px;
-  left: 0px;
+  left: -100px;
   display: flex;
   flex-direction: column;
   background-color: yellow;
+  border-top-right-radius: 40px 35px;
+  border-top-left-radius: 40px 35px;
   border-bottom-right-radius: 40px 35px;
   border-bottom-left-radius: 40px 35px;
 }

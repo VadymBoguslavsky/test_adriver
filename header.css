@@ -94,6 +94,7 @@
   top: 0;
 }
 
+
 /* 48em = 768px */
 
 @media (min-width: 48em) {
@@ -101,9 +102,7 @@
     float: left;
   }
   .header li a {
-    padding: 0 30px 20px 30px;
     border: none;
-    height: 100%;
   }
   .header .menu {
     clear: none;
