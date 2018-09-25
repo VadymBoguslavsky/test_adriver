@@ -24,10 +24,9 @@
   }
 }
 
-@media (min-width: 320px) and (max-width:780px) {
+@media (min-width: 320px) and (max-width:847px) {
   .header {
     position: relative;
-    padding-bottom: 30px;
     display: block;
   }
   .arrow_right, .arrow_left {
@@ -49,5 +48,20 @@
   .top {
     height: 43px;
     padding-top: 34px;
+  }
+  .logo {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    top: -20px;
+  }
+  .call_us {
+    display: none;
+  }
+  .footer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }

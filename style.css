@@ -2,12 +2,6 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-.header {
-  position: relative;
-  justify-content: space-around;
-  padding-top: 25px;
-}
-
 .top {
   position: absolute;
   background-color: white;
@@ -15,7 +9,6 @@
   opacity: 0.9;
   width: 100%;
   height: 25px;
-  padding-top: 25px;
 }
 
 .logo {
@@ -26,8 +19,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  left: 10%;
-  top: -27px;
+  left: 5px;
+  top: 0;
 }
 
 .logo a {
@@ -244,7 +237,7 @@
 .text__about {
   display: flex;
   flex-direction: row-reverse;
-  padding: 25px;
+  padding: 25px 25px 50px 25px;
   color: #313131;
 }
 
@@ -281,6 +274,13 @@
   justify-content: center;
 }
 
+.phone__number p{
+  font-size: 16px;
+  font-weight: bold;
+  color: #00858c;
+  max-width: 200px;
+  line-height: 2;
+}
 .text__wrapper .phone__number a {
   font-weight: bold;
   padding: 0 10px;
@@ -318,7 +318,7 @@
 .footer {
   background-color: #f2f8f9;
   display: flex;
-  padding: 20px;
+  padding: 40px;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -379,14 +379,12 @@
 .call_us {
   position: absolute;
   right: 12%;
-  top: -13px;
+  top: 10px;
+  right: 10px;
 }
 
 .call_us button {
-  color: #676b6d;
-  font-size: 19px;
   cursor: pointer;
-  font-weight: bold;
   position: relative;
   z-index: 10;
 }
@@ -400,7 +398,7 @@
   height: 35px;
   left: -40px;
   position: absolute;
-  top: -5px;
+  top: -12px;
 }
 
 #myDIV {
@@ -409,17 +407,17 @@
 
 #myDIV .phone__number {
   position: absolute;
-  width: 153px;
+  width: 185px;
   text-align: center;
-  top: 12px;
-  left: -100px;
+  top: -5px;
+  right: 23px;
   display: flex;
   flex-direction: column;
-  background-color: yellow;
-  border-top-right-radius: 40px 35px;
-  border-top-left-radius: 40px 35px;
-  border-bottom-right-radius: 40px 35px;
-  border-bottom-left-radius: 40px 35px;
+  background-color: white;
+  border: 2px solid #00858c;
+  -webkit-box-shadow: 9px 11px 48px 10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 11px 48px 10px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 11px 48px 10px rgba(0, 0, 0, 0.75);
 }
 
 #myDIV .phone__number a {
