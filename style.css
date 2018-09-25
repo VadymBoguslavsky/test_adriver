@@ -5,6 +5,7 @@
 .header {
   position: relative;
   justify-content: space-around;
+  padding-top: 25px;
 }
 
 .top {

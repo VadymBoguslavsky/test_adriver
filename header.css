@@ -30,9 +30,8 @@
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  padding: 28px 20px;
   position: absolute;
-  top: 30px;
+  top: 5px;
   left: 30px;
   user-select: none;
 }
