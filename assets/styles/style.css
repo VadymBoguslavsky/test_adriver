@@ -15,7 +15,7 @@
   height: 61px;
   width: 200px;
   background-position-x: 121px;
-  background-image: url(logo.png);
+  background-image: url('assets/img/files/logo.png');
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -194,7 +194,7 @@
 
 .about__img {
   height: 500px;
-  background-image: url("img/1 (1).jpg");
+  background-image: url("assets/img/full/1 (1).jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -303,7 +303,7 @@
   width: 16px;
   left: -25px;
   height: 16px;
-  background-image: url("kyivstar-s.jpg")
+  background-image: url("assets/img/files/kyivstar-s.jpg")
 }
 
 .mtc::before {
@@ -312,7 +312,7 @@
   width: 16px;
   left: -25px;
   height: 16px;
-  background-image: url("mts-s.jpg")
+  background-image: url("assets/img/files/mts-s.jpg")
 }
 
 .footer {
@@ -354,7 +354,7 @@
   position: absolute;
   content: "";
   background-size: contain;
-  background-image: url("skype.png");
+  background-image: url("assets/img/files/skype.png");
   height: 20px;
   width: 20px;
   left: -28px;
@@ -368,7 +368,7 @@
 
 .email__link::before {
   content: "";
-  background-image: url("email-icon.png");
+  background-image: url("assets/img/files/email-icon.png");
   position: absolute;
   width: 20px;
   height: 20px;
@@ -391,7 +391,7 @@
 
 .call_us button::before {
   content: "";
-  background-image: url(phonecall.gif);
+  background-image: url('assets/img/files/phonecall.gif');
   background-repeat: no-repeat;
   background-size: contain;
   width: 35px;
