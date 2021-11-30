@@ -29,26 +29,31 @@
     position: relative;
     display: block;
   }
+
   .arrow_right, .arrow_left {
     width: 50px;
     height: 50px;
   }
+
   .arrow_left:before {
     content: "";
     position: relative;
     top: 35%;
     left: 20px;
   }
+
   .arrow_right:before {
     content: "";
     position: relative;
     top: 35%;
     left: 10px;
   }
+
   .top {
     height: 43px;
     padding-top: 34px;
   }
+
   .logo {
     display: block;
     margin: 0 auto;
@@ -56,9 +61,11 @@
     left: 0;
     top: -20px;
   }
+
   .call_us {
     display: none;
   }
+
   .footer {
     justify-content: center;
     align-items: center;
